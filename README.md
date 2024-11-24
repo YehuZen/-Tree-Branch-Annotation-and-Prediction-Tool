@@ -129,21 +129,3 @@ If you use this tool in your research, please cite the following paper:
 
 **Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**  
 [DOI: 10.3390/f15091659](https://doi.org/10.3390/f15091659)
-
-```bibtex
-@article{yourcitation,
-  title={Automatic Method for Extracting Tree Branching Structures from a Single RGB Image},
-  author={Your Authors},
-  journal={Forests},
-  volume={15},
-  pages={1659},
-  year={2023},
-  publisher={MDPI}
-}
-```
-
----
-
-## **📄 License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
