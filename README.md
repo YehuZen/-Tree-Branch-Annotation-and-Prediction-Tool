@@ -146,10 +146,4 @@ If you use this tool in your research, please cite the following paper:
   year={2023},
   publisher={MDPI}
 }
-```
 
----
-
-## **📄 License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
