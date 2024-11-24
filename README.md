@@ -1,7 +1,6 @@
-# -Tree-Branch-Annotation-and-Prediction-Tool
-A Comprehensive Tool for Annotating and Predicting Tree Branch Structures
-
 # Tree Branch Annotation and Prediction Tool
+
+**A Comprehensive Tool for Annotating and Predicting Tree Branch Structures**
 
 This repository provides the software developed for the research paper:  
 [**Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**](https://doi.org/10.3390/f15091659) (**doi: 10.3390/f15091659**).  
@@ -44,16 +43,25 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/tree-branch-annotation.git
 cd tree-branch-annotation
+```
 
 ### Install Dependencies
-pip install -r requirements.txt
+
 ```bash
-Usage
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
 
 ### Launch the GUI
+
 Run the main script:
 
+```bash
 python PyUIPredict.py
+```
 
 ### Annotation Workflow
 
@@ -70,7 +78,9 @@ python PyUIPredict.py
 2. **Predict Branches**: Click **"Extract Features"** to generate predictions.
 3. **Visualize**: Review predicted branches on the canvas.
 
-Pre-trained Models
+---
+
+## Pre-trained Models
 
 Two pre-trained models are provided:
 1. **Model (400 Epochs)**: Balanced training for moderate accuracy.
@@ -78,14 +88,19 @@ Two pre-trained models are provided:
 
 Download models from the [models/](models/) directory or via links in this repository.
 
-Sample Dataset
+---
+
+## Sample Dataset
 
 The repository includes a small, copyright-free dataset for testing:
 - Located in the [data/](data/) directory.
 - Includes sample images and annotations.
 
-Project Structure
+---
 
+## Project Structure
+
+```plaintext
 tree-branch-annotation/
 │
 ├── data/                # Data directory (datasets, images, XML files)
@@ -99,11 +114,31 @@ tree-branch-annotation/
 ├── PyUIPredict.py       # Main PyQt5-based application script
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Documentation
+```
 
-Citing this Work
+---
+
+## Citing this Work
 
 If you use this tool in your research, please cite the following paper:
 
 **Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**  
 [DOI: 10.3390/f15091659](https://doi.org/10.3390/f15091659)
 
+```bibtex
+@article{yourcitation,
+  title={Automatic Method for Extracting Tree Branching Structures from a Single RGB Image},
+  author={Your Authors},
+  journal={Forests},
+  volume={15},
+  pages={1659},
+  year={2023},
+  publisher={MDPI}
+}
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
