@@ -23,22 +23,11 @@ A Comprehensive Tool for Annotating and Predicting Tree Branch Structures
       <img alt="DOI" src="https://img.shields.io/badge/DOI-10.3390%2Ff15091659-blue" />
     </a>
   </p>
-
-  <div>
-  <strong>
-  <samp>
-    [English](README.md)
-  </samp>
-  </strong>
-  </div>
 </div>
 
 ---
 
 ## Table of Contents
-
-<details>
-  <summary>Click to expand</summary>
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -49,8 +38,6 @@ A Comprehensive Tool for Annotating and Predicting Tree Branch Structures
 - [Project Structure](#project-structure)
 - [Citing this Work](#citing-this-work)
 - [License](#license)
-
-</details>
 
 ---
 
@@ -97,3 +84,4 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/tree-branch-annotation.git
 cd tree-branch-annotation
+
