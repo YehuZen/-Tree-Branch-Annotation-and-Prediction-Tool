@@ -47,7 +47,7 @@ cd tree-branch-annotation
 
 ### Install Dependencies
 pip install -r requirements.txt
-
+```bash
 Usage
 
 ### Launch the GUI
