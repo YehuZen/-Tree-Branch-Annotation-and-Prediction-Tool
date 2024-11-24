@@ -1,95 +1,100 @@
 <div align="center">
   <img src="assets/logo.png" alt="Tree Branch Tool Logo" width="200" height="200"/>
 
-  # **Tree Branch Annotation and Prediction Tool**
+  # **🌳 Tree Branch Annotation and Prediction Tool**
 
   *A Comprehensive Tool for Annotating and Predicting Tree Branch Structures*
 
-  [**Read the Paper**](https://doi.org/10.3390/f15091659) | [**Download Pre-trained Models**](models/) | [**Explore Dataset**](data/)
+  [**📄 Read the Paper**](https://doi.org/10.3390/f15091659) | [**🔽 Download Pre-trained Models**](models/) | [**📂 Explore Dataset**](data/)
 </div>
 
 ---
 
 ## **📖 Introduction**
 
-This repository provides the software developed for the research paper:  
-[**Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**](https://doi.org/10.3390/f15091659) (**doi: 10.3390/f15091659**).
+This repository provides **two versions** of the **Tree Branch Annotation Tool**:
 
-The tool offers:
-- **Annotation Tool**: Manually annotate main trunks and primary branches.
-- **Prediction Tool**: Predict tree branch structures using pre-trained models.
-- **Dataset Builder**: Generate structured datasets for deep learning.
-- **Pre-trained Models**: Access ready-to-use models trained for **400 epochs** and **1200 epochs**.
-- **Sample Dataset**: Utilize copyright-free images and annotations for testing.
+### 1. **Tree Branch Annotation Tool (No Prediction)**
+A simple tool for **manually annotating tree branches** (main trunks and side branches) on RGB images.
+
+### 2. **Tree Branch Annotation and Prediction Tool**
+A more advanced version of the tool that includes all features from the first tool, plus **deep learning-based prediction** for tree branch structures using pre-trained models.
+
+Both versions are developed for the research paper:  
+[**Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**](https://doi.org/10.3390/f15091659) (**doi: 10.3390/f15091659**).
 
 ---
 
 ## **✨ Features**
 
-✅ **Intuitive Annotation**  
-Interactive tools to annotate tree branches with ease.
+### **1. Tree Branch Annotation Tool (No Prediction)**
 
-✅ **Deep Learning Integration**  
-Load pre-trained models to predict branches directly from RGB images.
+✅ **Interactive Annotation**  
+Manually annotate **main trunks** and **side branches** with ease.
 
-✅ **Dataset Export**  
-Save annotations in XML format for training custom models.
+✅ **Save and Export**  
+Save annotated points as structured XML files for future use.
 
-✅ **Pre-trained Models & Dataset**  
-Explore pre-trained models and a sample dataset included for testing.
+### **2. Tree Branch Annotation and Prediction Tool**
 
----
+✅ **Deep Learning Prediction**  
+After annotating the main trunk and branches, use pre-trained models to predict additional tree branch points.
 
-## **🚀 Installation**
-
-### Prerequisites
-Make sure you have the following installed:
-- Python 3.8+
-- PyTorch
-- PyQt5
-- NumPy, OpenCV, Matplotlib, Pillow
-
-### Clone the Repository
-```bash
-git clone https://github.com/your-username/tree-branch-annotation.git
-cd tree-branch-annotation
-```
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+✅ **Interactive Annotation and Prediction**  
+Annotate and then predict tree branch structures, both using deep learning models.
 
 ---
 
-## **🖱️ Usage**
+## **🖱️ Usage Instructions**
 
-### Launch the GUI
-Run the main script:
-```bash
-python PyUIPredict.py
-```
+### **For the Tree Branch Annotation Tool (No Prediction)**
 
-### Annotation Workflow
-1. **Open an Image**: Click **"Open File"** to load an image.  
-2. **Annotate**:  
-   - Left-click to annotate the **main trunk**.  
-   - Use other mouse buttons to annotate **primary branches**.  
-3. **Draw Lines**: Click **"Draw Line"** to connect annotated points.  
-4. **Save Annotations**: Use **"Save Annotations"** to export to XML.
+1. **Open the Image**:  
+   Click the **"Open File"** button to load an image.
 
-### Prediction Workflow
-1. **Load a Model**: Click **"Select Model"** to load a pre-trained model.  
-2. **Predict Branches**: Click **"Extract Features"** to generate predictions.  
-3. **Visualize**: Review predicted branches directly on the canvas.
+2. **Annotate the Main Trunk**:  
+   - Set the right panel mode to **"Main Branch"**.
+   - Left-click to annotate the **main trunk**.
+   - Once finished, click **"Draw Line"** to connect the points.
+
+3. **Annotate the Side Branch**:  
+   - Change the right panel mode to **"Sub-Branch"**.
+   - Right-click to annotate **side branches**.
+
+4. **Save the Annotations**:  
+   - Click **"Save Annotations"** to save your work as an XML file.
+
+---
+
+### **For the Tree Branch Annotation and Prediction Tool**
+
+1. **Open the Image**:  
+   Click **"Open File"** to load an image for annotation.
+
+2. **Annotate the Main Trunk**:  
+   - Set the right panel mode to **"Main Branch"**.
+   - Left-click to annotate the **main trunk**.
+   - Once finished, click **"Draw Line"** to connect the points.
+
+3. **Annotate the Side Branch**:  
+   - Change the right panel mode to **"Sub-Branch"**.
+   - Right-click to annotate **side branches**.
+
+4. **Save the Annotations**:  
+   - After completing annotations, click **"Save Annotations"** to save your work as an XML file.
+
+5. **Load a Model and Predict**:  
+   - After opening an image, click **"Select Model"** to load a pre-trained model.
+   - Click **"Predict"** to predict tree branch points using the model.
 
 ---
 
 ## **📁 Pre-trained Models**
 
-Two pre-trained models are available:  
-- **Model (400 Epochs)**: Balanced training for moderate accuracy.  
-- **Model (1200 Epochs)**: Extended training for higher accuracy.  
+Two pre-trained models are available for **prediction**:
+
+- **Model (400 Epochs)**: Trained for **400 epochs**, providing moderate accuracy.
+- **Model (1200 Epochs)**: Trained for **1200 epochs**, providing higher accuracy.
 
 Download models from the [models/](models/) directory.
 
@@ -97,8 +102,9 @@ Download models from the [models/](models/) directory.
 
 ## **📊 Sample Dataset**
 
-The repository includes a sample dataset for testing:  
-- Located in the [data/](data/) directory.  
+The repository includes a small, **copyright-free** dataset for testing:
+
+- Located in the [data/](data/) directory.
 - Includes sample images and corresponding XML annotations.
 
 ---
@@ -129,3 +135,21 @@ If you use this tool in your research, please cite the following paper:
 
 **Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**  
 [DOI: 10.3390/f15091659](https://doi.org/10.3390/f15091659)
+
+```bibtex
+@article{yourcitation,
+  title={Automatic Method for Extracting Tree Branching Structures from a Single RGB Image},
+  author={Your Authors},
+  journal={Forests},
+  volume={15},
+  pages={1659},
+  year={2023},
+  publisher={MDPI}
+}
+```
+
+---
+
+## **📄 License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
