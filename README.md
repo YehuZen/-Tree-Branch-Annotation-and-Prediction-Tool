@@ -45,3 +45,65 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/tree-branch-annotation.git
 cd tree-branch-annotation
 
+### Install Dependencies
+pip install -r requirements.txt
+
+Usage
+
+### Launch the GUI
+Run the main script:
+
+python PyUIPredict.py
+
+### Annotation Workflow
+
+1. **Open an Image**: Click **"Open File"** to load an image.
+2. **Annotate**:
+   - Left-click to annotate the main trunk.
+   - Use other mouse buttons to annotate primary branches.
+3. **Draw Lines**: Click **"Draw Line"** to connect annotated points.
+4. **Save Annotations**: Use **"Save Annotations"** to save as an XML file.
+
+### Prediction Workflow
+
+1. **Load a Model**: Click **"Select Model"** to load a pre-trained model.
+2. **Predict Branches**: Click **"Extract Features"** to generate predictions.
+3. **Visualize**: Review predicted branches on the canvas.
+
+Pre-trained Models
+
+Two pre-trained models are provided:
+1. **Model (400 Epochs)**: Balanced training for moderate accuracy.
+2. **Model (1200 Epochs)**: Extended training for higher accuracy.
+
+Download models from the [models/](models/) directory or via links in this repository.
+
+Sample Dataset
+
+The repository includes a small, copyright-free dataset for testing:
+- Located in the [data/](data/) directory.
+- Includes sample images and annotations.
+
+Project Structure
+
+tree-branch-annotation/
+│
+├── data/                # Data directory (datasets, images, XML files)
+│   ├── xml/             # Saved XML files
+│   ├── png/             # Annotated images
+│
+├── models/              # Pre-trained models
+│   ├── model_400.pth    # 400 epochs
+│   ├── model_1200.pth   # 1200 epochs
+│
+├── PyUIPredict.py       # Main PyQt5-based application script
+├── requirements.txt     # Python dependencies
+├── README.md            # Documentation
+
+Citing this Work
+
+If you use this tool in your research, please cite the following paper:
+
+**Automatic Method for Extracting Tree Branching Structures from a Single RGB Image**  
+[DOI: 10.3390/f15091659](https://doi.org/10.3390/f15091659)
+
