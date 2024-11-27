@@ -122,7 +122,8 @@ tree-branch-annotation/
 │   ├── model_400.pth    # 400 epochs
 │   ├── model_1200.pth   # 1200 epochs
 │
-├── PyUIPredict.py       # Main PyQt5-based application script
+├── LabelPredictor.py       # Main PyQt5-based application script
+├── Label.py
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Documentation
 ```
