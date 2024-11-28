@@ -138,13 +138,16 @@ If you use this tool in your research, please cite the following paper:
 [DOI: 10.3390/f15091659](https://doi.org/10.3390/f15091659)
 
 ```bibtex
-@article{yourcitation,
-  title={Automatic Method for Extracting Tree Branching Structures from a Single RGB Image},
-  author={Your Authors},
-  journal={Forests},
-  volume={15},
-  pages={1659},
-  year={2023},
-  publisher={MDPI}
+@Article{f15091659,
+AUTHOR = {Yang, Yinhui and Lai, Huang and Chen, Bin and Huo, Yuchi and Xia, Kai and Huang, Jianqin},
+TITLE = {Automatic Method for Extracting Tree Branching Structures from a Single RGB Image},
+JOURNAL = {Forests},
+VOLUME = {15},
+YEAR = {2024},
+NUMBER = {9},
+ARTICLE-NUMBER = {1659},
+URL = {https://www.mdpi.com/1999-4907/15/9/1659},
+ISSN = {1999-4907},
+DOI = {10.3390/f15091659}
 }
 
