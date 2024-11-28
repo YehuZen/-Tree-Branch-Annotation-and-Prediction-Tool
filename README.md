@@ -102,7 +102,7 @@ Download models from the [models/](models/) directory.
 
 ## **📊 Sample Dataset**
 
-The repository includes a small, **copyright-free** dataset for testing:
+The repository includes a small, **CreativeML Open RAIL++-M** dataset for testing:
 
 - Located in the [data/](data/) directory.
 - Includes sample images and corresponding XML annotations.
