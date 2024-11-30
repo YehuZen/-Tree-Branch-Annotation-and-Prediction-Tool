@@ -118,9 +118,8 @@ tree-branch-annotation/
 │   ├── xml/             # Saved XML files
 │   ├── png/             # Annotated images
 │
-├── models/              # Pre-trained models
-│   ├── model_400.pth    # 400 epochs
-│   ├── model_1200.pth   # 1200 epochs
+├── model_400.pth    # Pre-trained models 400 epochs
+├── model_1200.pth   # Pre-trained models 1200 epochs
 │
 ├── LabelPredictor.py       # Main PyQt5-based application script
 ├── Label.py
