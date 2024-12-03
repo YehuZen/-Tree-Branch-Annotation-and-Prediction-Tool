@@ -93,10 +93,9 @@ Annotate and then predict tree branch structures, both using deep learning model
 
 Two pre-trained models are available for **prediction**:
 
-- **Model (400 Epochs)**: Trained for **400 epochs**, providing moderate accuracy.
-- **Model (1200 Epochs)**: Trained for **1200 epochs**, providing higher accuracy.
+- **Model (399_checkpoint.pth)**: Trained for **400 epochs**, providing moderate accuracy.
+- **Model (1199_checkpoint.pth)**: Trained for **1200 epochs**, providing higher accuracy.
 
-Download models from the [models/](models/) directory.
 
 ---
 
